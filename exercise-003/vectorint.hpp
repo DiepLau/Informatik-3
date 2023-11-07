@@ -3,8 +3,14 @@
 
 class VectorInt {
 public:
-    VectorInt(int size);
+    int* tmp;
+    int vec_capacity;
+    VectorInt(int);
     ~VectorInt();
+    void push_back(const int); 
+    int at(const int);
+    int size();
+    void resize(int, const int&);
 private:
     int m_size;
     int* mp_Data;

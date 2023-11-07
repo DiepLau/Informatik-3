@@ -1,7 +1,6 @@
 #include <fmt/chrono.h>
 #include <fmt/format.h>
-
-#include "vectorint.hpp"
+#include "vectorint.hpp" 
 
 auto main(int argc, char **argv) -> int
 {
@@ -14,6 +13,7 @@ auto main(int argc, char **argv) -> int
 
     /* INSERT YOUR CODE HERE */
     VectorInt data(20);
+    data.push_back(38);
 
     return 0; /* exit gracefully*/
 }
